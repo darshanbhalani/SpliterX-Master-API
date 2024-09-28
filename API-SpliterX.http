@@ -1,0 +1,6 @@
+@API_SpliterX_HostAddress = http://localhost:5099
+
+GET {{API_SpliterX_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
