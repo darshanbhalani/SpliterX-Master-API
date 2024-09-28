@@ -81,7 +81,6 @@ namespace API_SpliterX.DataAccess
         public dynamic getUserDetails(long id)
         {
             dynamic response = new System.Dynamic.ExpandoObject();
-            response.success = false;
             UserDetails userDetails = new UserDetails();
 
             using (var conn = new NpgsqlConnection(_connectionString))
