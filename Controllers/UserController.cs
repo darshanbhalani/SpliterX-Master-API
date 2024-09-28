@@ -120,7 +120,7 @@ namespace SpliterX_API.Controllers
             }
         }
 
-        [Authorize]
+        
         [HttpPost("UpdateUserDetails")]
         public IActionResult UpdateUserDetails(UserUpdateModel data)
         {
